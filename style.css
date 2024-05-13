@@ -2,8 +2,61 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
-   font-family:'Times New Roman', Times, serif;
 }
+
+.poppins-thin {
+   font-family: "Poppins", sans-serif;
+   font-weight: 100;
+   font-style: normal;
+ }
+ 
+ .poppins-extralight {
+   font-family: "Poppins", sans-serif;
+   font-weight: 200;
+   font-style: normal;
+ }
+ 
+ .poppins-light {
+   font-family: "Poppins", sans-serif;
+   font-weight: 300;
+   font-style: normal;
+ }
+ 
+ .poppins-regular {
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+ }
+ 
+ .poppins-medium {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+   font-style: normal;
+ }
+ 
+ .poppins-semibold {
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   font-style: normal;
+ }
+ 
+ .poppins-bold {
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   font-style: normal;
+ }
+ 
+ .poppins-extrabold {
+   font-family: "Poppins", sans-serif;
+   font-weight: 800;
+   font-style: normal;
+ }
+ 
+ .poppins-black {
+   font-family: "Poppins", sans-serif;
+   font-weight: 900;
+   font-style: normal;
+ }
 
 p {
    margin: 0 !important;
@@ -748,6 +801,9 @@ padding-bottom: 5px;
 
 /* -----------------responsive----------- */
 @media only screen and (max-width: 520px) {
+   header{
+      height: 60vh;
+   }
    .navbar-nav {
       gap: 1px;
    }
@@ -755,8 +811,13 @@ padding-bottom: 5px;
    .navbar-nav .nav-link {
       font-size: 12px;
    }
+   .banner{
+      padding-top: 50px;
+      height: 60vh;
+
+   }
 .banner #element{
-   font-size: 38px;
+   font-size: 32px;
 }
    .banner .fst {
       font-size: 18px;
@@ -778,7 +839,7 @@ padding-bottom: 5px;
    }
 
    .banner .scndtxt {
-      font-size: 28px;
+      font-size: 25px;
    }
 
    /* --------about------- */
@@ -868,6 +929,9 @@ padding-bottom: 5px;
       width: 300px;
       padding-bottom: 20px;
    }
+   .tabcontent {
+      margin-left: 15px;
+  }
 
    /* ---------contact--------- */
    .contact h2 {
